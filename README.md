@@ -36,8 +36,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://github.com/adelekewest/chat-app]
-- Live Site URL: [https://adelekewest.github.io/chat-app/]
+- Solution URL: https://github.com/adelekewest/chat-app
+- Live Site URL: https://adelekewest.github.io/chat-app/
 ## My process
 
 ### Built with
