@@ -30,6 +30,8 @@ body {
     width: 69%;
     background-color: hsl(0, 0%, 100%);
     padding-bottom: 15px;
+    border: 2px solid #fff;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
     
 }
 
