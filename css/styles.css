@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     font-family: 'Rubik', sans-serif;
+     min-height: 100vh;
+     font-size: 16px;
+}
+
+.background-container {
+    position: relative;
+    background-color: hsl(264, 100%, 61%);
+    border-bottom-right-radius: 200px;
+    z-index: 0;
+    width: 50%;
+    height:450px;
+}
+
+.app-container {
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    z-index: 1;
+    border-radius: 30px;
+    width: 69%;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 15px;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 90%;
+    gap: 40px;
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.ava-cont {
+    display: flex;
+    gap: 5px;
+}
+
+
+.fa-solid {
+    color: hsl(0, 0%, 100%);
+}
+
+.fa-angle-left {
+    margin-top: 5px;
+}
+
+img.avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 360px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.avatar-name h2 {
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.avatar-name p {
+    font-size: 0.6rem;
+    color: hsl(276, 100%, 81%);
+    
+}
+
+.chat-body {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background-color :  hsl(270, 20%, 96%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.chat-body > .left-chat {
+    font-size: 0.6rem;
+    width: 62%;
+    margin-left: 8px;
+    margin-top: 15px;
+    background-color: hsl(270, 7%, 64%);
+    color: hsl(276, 55%, 52%);
+    padding: 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+}
+
+img.dog-img {
+    width: 15%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+img.first {
+    margin-left: 100px;
+}
+
+
+.chat-body > .right-chat {
+    font-size: 0.6rem;
+    margin-left: 105px;
+    margin-top: 10px;
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+    width: 50%;
+   
+}
+
+.chat-body > .second {
+    margin-left: 125px;
+    width: 40%;
+}
+
+.price-term {
+    display: flex;
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 70%;
+    justify-content: space-around;
+    padding: 5px;
+    background-image: linear-gradient(90deg,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+}
+
+.price-term > .walk{
+    font-size: 0.6rem;
+    font-weight: 100;
+    margin-top: 2px;
+}
+
+.msg {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(206, 6%, 79%);
+}
+
+
+.fa-angle-right {
+    background-color: hsl(271, 36%, 24%);
+    margin-left: 25px;
+    width: 14%;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    outline-color: hsl(289, 100%, 72%);
+    
+}
+
+
+.main-info {
+    margin: 0 auto;
+    margin-top: 160px;
+    width: 90%;
+    text-align: center;
+}
+
+.main-info > h1 {
+    font-size: 2rem;
+    font-size: 900;
+    color: hsl(271, 36%, 24%);
+}
+
+.main-info > p {
+    color:  hsl(270, 7%, 64%);
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    width: 84%;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 375px) {
+    .background-container {
+        width: 250px
+    }
+
+    .app-container {
+        width: 250px;
+    }
+
+    .main-info {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    body {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-info {
+        margin-top: 230px;
+        width: 38%;
+    }
+
+    .main-info > p {
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 1104px) and (max-width: 1440px) {
+    .background-container {
+        width: 400px;
+        border-bottom-right-radius: 600px 850px;
+        border-bottom-left-radius: 700px 180px;
+        height: 590px;
+    }
+
+    .app-container {
+        left: 350px;
+    }
+
+   .main-info {
+    width: 350px;
+    text-align: left;
+   }
+
+   .main-info > h1 {
+    font-size:  2.2rem;
+    font-weight: 700;
+   }
+   
+   .main-info > p {
+    font-weight:  700;
+    width: 100%;
+   }
+}
+/*<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style> */
