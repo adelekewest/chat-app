@@ -30,8 +30,7 @@ body {
     width: 69%;
     background-color: hsl(0, 0%, 100%);
     padding-bottom: 15px;
-    border: 11px solid #fff;
-    box-shadow: 0 0 54px -21px #000000;
+    
 }
 
 .avatar-container {
